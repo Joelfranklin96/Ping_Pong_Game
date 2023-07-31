@@ -1,0 +1,55 @@
+.text{
+    position: fixed;
+    left: 1vw;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#text1{
+    top: 0px;
+}
+
+#text2{
+    bottom: 0px;
+}
+
+.score{
+    height: 150px;
+    width: 60px;
+    background-color: rgb(64, 182, 221);
+    position:fixed;
+    left:90vw;
+    top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.rod{
+    height: 10px;
+    width: 100px;
+    left: 50vw;
+    position: fixed;
+    border-radius: 5px;
+}
+
+#rod1{
+    background-color: blue;
+    top: 0px;
+    left: 50vw;
+}
+
+#rod2{
+    background-color: red;
+    bottom:0px;
+    left: 50vw;
+}
+
+#ball{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: fixed;
+    left: 53vw;
+    bottom: 10px;
+    background-color: yellow;
+}
